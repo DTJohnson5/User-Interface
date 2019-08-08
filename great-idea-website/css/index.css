@@ -54,13 +54,133 @@ table {
 
 html, body {
     height: 100%;
-    font-family: 'Titillium Web', sans-serif;
+    font-family: 'Indie Flower', cursive;
 }
 
 h1, h2, h3, h4, h5 {
-    font-family: 'Bangers', cursive;
+    font-family: 'Rock Salt', cursive;
     letter-spacing: 1px;
     margin-bottom: 15px;
 }
 
 /* Your code starts here! */
+
+.container {
+	width: 880px;
+	margin: 0 auto;
+}
+
+header {
+    display: inline-block;
+	width: 100%;
+	/* ↓ Stretch Goal 1 ↓ */
+	background: radial-gradient(skyblue, blue, midnightblue);
+	position: fixed;
+	z-index: 100px;
+	/* ↑ Stretch Goal 1 ↑ */
+}
+
+header nav {
+	display: inline-block;
+	vertical-align: middle;
+	width: 600px;
+	margin-top: 40px;
+}
+
+header nav a {
+	text-decoration: none;
+	color: gray;
+	padding-left: 40px;
+}
+
+header nav a:hover {
+	text-decoration: none;
+	color: white;
+		font-weight: bold;
+		font-size: 18px;
+	}
+
+header .logo {
+    display: inline-block;
+    vertical-align: middle;
+	margin: 26px 0 0 90px;
+}
+
+.action {
+    width: 100%;
+    display: inline-block;
+    text-align: center;
+  }
+  
+  .action .aText {
+      font-size: 60px;
+      text-align: center;
+      letter-spacing: 5px;
+      display: inline-block;
+      align-items: center;
+      margin: 0 100px 0 0;
+  }
+  
+  .action .aText button {
+      cursor: pointer;
+      background: white;
+      width: 170px;
+      height: 32px;
+      border: 1px double black;
+      font-size: 16px;
+	  margin-top: 10px;
+	  font-family: 'Indie Flower', cursive;
+  }
+
+  .action img {
+      display: inline-block;
+      margin-top: 50px;
+  }
+
+  .About {
+      display: inline-block;
+      width: 100%;
+	font-size: 15px;
+	padding: 35px 0;
+	line-height: 18px;
+	margin: 75px 0 35px 0;
+	border-top: 2px solid black;
+	border-bottom: 2px solid black;
+}
+
+.Text {
+	display: inline-block;
+}
+
+.About .middle-img {	
+    width: 100%;
+}
+
+.Top {
+    display: inline-block;
+    text-align: left;
+    align-items: stretch;
+    max-width: 49%;
+    margin-bottom: 40px;
+}
+
+.Bottom {
+    display: inline-block;
+    text-align: left;
+    width: 31%;
+    margin-top: 20px;
+    margin-right: 10px;
+}
+
+.Top p, .Bottom p {
+	padding-right: 20px;
+}
+
+.Contact p {
+	margin: 15px 0;
+}
+
+footer {
+	margin: 32px 0;
+      text-align: center;
+}
